@@ -1,0 +1,115 @@
+.l1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.l2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:medium;
+    font-weight:lighter; 
+    color: red;
+}
+
+.l3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:medium;
+  font-weight:bold; 
+  color: blue;
+}
+
+.in{
+    border-style: dotted;
+    border-width: 1px;
+    border-color: black;
+    background-color:rgb(156, 207, 251);
+    font-weight: bold;
+    float: right;
+}
+
+.in2{
+  border-style: dotted;
+  border-width: 1px;
+  border-color: black;
+  background-color:rgb(240, 240, 240);
+  font-weight: bold;
+  height: 14px;
+  float: right;
+  text-align: center;
+}
+
+.in3{
+  border-style: dotted;
+  border-width: 1px;
+  border-color: black;
+  background-color:rgb(240, 240, 240);
+  font-weight: bold;
+  height: 14px;
+  float:inherit;
+  text-align: center;
+}
+
+.button {
+    border: none;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.3s;
+    border: 2px solid #000000; 
+    cursor: pointer;
+  }
+
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.button2 {
+    border: none;
+    background-color: gray;
+    color: rgb(183, 0, 0);
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.3s;
+    border: 2px solid #000000; 
+    cursor: pointer;
+  }
+
+.button2:hover {
+    background-color: red;
+    color: white;
+  }
+
+.ChangeButton {
+    border: none;
+    background-color: rgb(119, 249, 114);
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.3s;
+    border: 2px solid #000000; 
+    cursor: pointer;
+  }
+
+.ChangeButton:hover {
+    background-color: blueviolet;
+    color: black;
+  }
+
+.offline{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:medium;
+    font-weight:bold; 
+    color: red;
+  }
+
+.online{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:medium;
+    font-weight:bold; 
+    color: green;
+  }

@@ -1,0 +1,73 @@
+.c1
+{
+  width: 33%;
+  height: 100%;
+  display: block;
+  float: left;
+}
+
+.c2
+{
+  width: 40%;
+  height: 100%;
+  display: block;
+  float: left;
+}
+
+.c3
+{
+  width: 27%;
+  height: 100%;
+  display: block;
+  float: left;
+}
+
+.header
+  {
+    text-align: center;
+    display: block;
+  }
+
+.login
+  {
+    padding: 1%;
+    border-style: dashed;
+    border-color: black;
+    display: block;
+    border-bottom: none;
+  }
+
+.status
+  {
+    padding: 1%;
+    border-style: dashed;
+    border-color: black;
+    display: block;
+    border-top: none;
+  }
+
+.main
+  {
+    padding: 1%;
+    display: block;
+  }
+  
+.message
+  {
+    padding: 1%;
+    display: block;
+    float: inline-start;
+    width: 100%;
+  }
+
+.photo
+  {
+    padding: 1%;
+    display: block;
+  }
+
+.info
+  {
+    padding: 1%;
+    display: block;
+  }
