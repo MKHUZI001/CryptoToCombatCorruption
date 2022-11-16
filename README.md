@@ -17,4 +17,7 @@ Please ensure that all node packages are downloaded for the app to fucntion prop
 The command: `npm install` should install all used packages for the app
 
 ## IP addresses
- Ensure that IP addresses macth the device you are using, current files only include IP address used during project development 
+ Ensure that IP addresses macth the device you are using, current files only include IP address used during project development
+ 
+## Server Error on some browsers (Cross-Origin Restrictions)
+For browers with Cross-Origin Restrictions (espetially Safari) please disable this setting or the app will not work the blockchain network
