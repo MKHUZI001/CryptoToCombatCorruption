@@ -1,0 +1,43 @@
+accounts:  (keystore folder)
+    0x7cd205b03069Eb9094D51f85d852222DBffB31E5 (in keystone folder and first validator node must have this key file)
+
+
+commands: (can be combined in one line to configure node in one go)
+    geth --networkid 12345 // set network ID
+    geth init --datadir node genesis.json //setup node/write geth node data
+    geth --datadir node account new //create new account
+    --lightkdf //reduce CPU and RAM usage, add this to raspberry pi
+
+Attching command console on node:
+    geth attach node1/geth.ipc // attach console linux
+    geth attch ipc:\\.\pipe\geth.ipc  //attach for windows
+
+Console Account Commands: 
+    personal.unlockAccount(eth.accounts[0])    
+    personal.unlockAccount(eth.accounts[n])
+    personal.unlockAccount(address)
+
+// Proof of Work Co
+    clique.propose(address, auth) // allow new signers
+    clique.proposals() // check proposals
+    clique.status() // geth activity of signers
+
+//Miner commands
+    miner.start() //start mining or signing blocks 
+    miner.stop() //start mining or signing blocks
+
+//Admin
+    admin.peers()                 //view connected or addded nodes
+    admin.addPeer(enode:.....)    // add a node to sync with
+    admin.nodeInfo()              // get info about this node
+    admin.startHTTP(ip_address, portNum) // open HTTP communication port
+    admin.startWS(ip_address, portNum)   // open WS communication port
+    admin.stopHTTP()                // close HTTP communication port(s)
+    admin.stopWS()                  // close WS communication port(s)
+
+// Links for Rasperry Pi Geth downloads
+	arm7 geth
+		https://gethstore.blob.core.windows.net/builds/geth-alltools-linux-arm7-1.10.26-e5eb32ac.tar.gz
+
+	arm32
+		https://gethstore.blob.core.windows.net/builds/geth-alltools-linux-386-1.10.26-e5eb32ac.tar.gz
