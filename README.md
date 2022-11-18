@@ -25,4 +25,7 @@ For browers with Cross-Origin Restrictions (espetially Safari) please disable th
 ## More Info
 follow YouTube guideline videos and look at the WiKi page.
 
+## Added Features
 Contract are now automatically linked by the migrate script on the migration folder. If contract are manually deployed without the use of this script then use updateContracts.js on the App/ folder to link the addresses of the contracts.
+
+You do not need to enter custom network ID, the first network ID on the contract JSON will be taken when setting up Identification Blockchain Application. Only change if you deployed the network to multiple different networks using same contract JSON (file in build folder)
