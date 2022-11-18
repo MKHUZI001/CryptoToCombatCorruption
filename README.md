@@ -23,4 +23,5 @@ The command: `npm install` should install all used packages for the app
 For browers with Cross-Origin Restrictions (espetially Safari) please disable this setting or the app will not work the blockchain network
 
 ## More Info
-follow YouTube guideline videos and look at the WiKi page
+follow YouTube guideline videos and look at the WiKi page.
+Contract are now automatically linked by the migrate script on the migration folder. If contract are manually deployed without the use of this script then use updateContracts.js on the App/ folder to link the addresses of the contracts.
