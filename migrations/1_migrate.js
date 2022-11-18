@@ -1,8 +1,13 @@
-var ID = artifacts.require("Identity");
+var Identity = artifacts.require("Identity");
 var Access = artifacts.require("Access");
 
 module.exports = async function(deployer)
     {
-        deployer.deploy(ID);
-        deployer.deploy(Access);
+    await deployer.deploy(Identity);
+    await deployer.deploy(Access);
+
+    identity = await Identity.deployed();
+    access = await Access.deployed();
+    await identity.setAccess(Access.address);
+    await access.setIDS(Identity.address); 
     }
