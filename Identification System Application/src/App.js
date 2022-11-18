@@ -17,10 +17,11 @@ const storage = new Web3Storage({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.e
   const Access = require("./contracts/Access.json")
   
   try{
-  var networkID = "170301";
+  var jk = Identity.networks;
+  var networkID = Object.keys(jk)[0];
   var IdentityAddress = Identity.networks[networkID].address;
   var AccessAddress = Access.networks[networkID].address;
-  const provider = new ethers.providers.JsonRpcProvider("http://192.168.27.187:8545");
+  const provider = new ethers.providers.JsonRpcProvider("http://127.0.0.1:8545");
   const signer = provider.getSigner();
   const IDABI = Identity.abi;
   const ACABI = Access.abi;
