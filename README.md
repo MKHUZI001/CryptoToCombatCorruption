@@ -24,4 +24,5 @@ For browers with Cross-Origin Restrictions (espetially Safari) please disable th
 
 ## More Info
 follow YouTube guideline videos and look at the WiKi page.
+
 Contract are now automatically linked by the migrate script on the migration folder. If contract are manually deployed without the use of this script then use updateContracts.js on the App/ folder to link the addresses of the contracts.
