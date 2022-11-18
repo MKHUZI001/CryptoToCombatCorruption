@@ -1,7 +1,7 @@
 # CryptoToCombatCorruption
 UCT EEE final year project.
 
-link to Youtube: ----https://youtube.com/playlist?list=PL1oUogMER8BhUgQZR8g6PvVd5O7OJzE-k
+link to Youtube: https://youtube.com/playlist?list=PL1oUogMER8BhUgQZR8g6PvVd5O7OJzE-k
 
 
 link to Report: https://www.overleaf.com/read/tyvtzkjsqzzs
