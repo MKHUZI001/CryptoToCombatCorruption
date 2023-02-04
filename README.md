@@ -6,6 +6,9 @@ link to Youtube: https://youtube.com/playlist?list=PL1oUogMER8BhUgQZR8g6PvVd5O7O
 
 link to Report: https://www.overleaf.com/read/tyvtzkjsqzzs
 
+# 5G Scalability
+link to Report: https://www.overleaf.com/read/dmtjhqyftsyh
+
 # Folder Description
 contracts: contains smart contract (compile and deploy this file to get contract ABI)
 test: Truffle suite test codes to ensure that contracts function as intended
